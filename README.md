@@ -4,7 +4,7 @@ https://lesyk01.github.io/web-lab/lab_01/food/
 
 https://lesyk01.github.io/web-lab/lab_01/kitchen/
 
-lab_02: https://lesyk01.github.io/web-lab/lab_02/
+lab_02: https://lesyk01.github.io/web-lab/lab_02/apples/index.html
 
 lab_03: https://lesyk01.github.io/web-lab/lab_03/
 
