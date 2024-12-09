@@ -1,4 +1,4 @@
-const key = window.location.hash.substring(1);
+
 const weapons = {
     Zeus: {
         name: "Zeus",
@@ -38,9 +38,10 @@ const weapons = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const key = urlParams.get('weapon');
+    
+    const key = window.location.hash.substring(1);
 
+    console.log(key,'key')
     if (key && weapons[key]) {
         showDetails(key);
     } else {
