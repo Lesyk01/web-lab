@@ -8,7 +8,7 @@ lab_02: https://lesyk01.github.io/web-lab/lab_02/apples/index.html
 
 lab_03: https://lesyk01.github.io/web-lab/lab_03/planets/index.html
 
-lab_04: https://lesyk01.github.io/web-lab/lab_04/
+lab_04: https://lesyk01.github.io/web-lab/lab_04/museum/index.html
 
 lab_05: https://lesyk01.github.io/web-lab/lab_05/
 
