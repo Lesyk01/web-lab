@@ -1,0 +1,160 @@
+body {
+    background-image: url("dark-wood.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato',
+        sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 0px;
+    Padding: 0px;
+    height: 100vh;
+
+    header {
+        width: 80%;
+        height: 150px;
+        background-image: url("header-page.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-family: 'Lato',
+            sans-serif;
+        font-size: 14px;
+        color: #333333;
+        margin: 0px;
+        Padding: 0px;
+
+        h1 {
+            size: 80px;
+            Font-family: 'Lato', sans-serif;
+            Margin: 30px;
+            text-align: end;
+            Color: #000000;
+            font-size: 60px;
+        }
+
+
+    }
+
+    nav {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 80%;
+        background-image: url("header-page.jpg");
+        background-size: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+
+        ul {
+            margin: 0px;
+            margin: 7px;
+        }
+
+        li {
+            margin: 0px;
+            display: inline;
+            margin-top: 0px;
+
+            a {
+                margin-top: 0px;
+                margin: 10px;
+                font-size: 18px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    main {
+        width: 80%;
+        background: white;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        article {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+
+            img {
+                min-width: 330px;
+            }
+
+            h2 {
+
+                Font-family: 'Lato', sans-serif;
+                margin-top: 25px;
+                text-align: left;
+                Color: #000000;
+                font-size: 32px;
+            }
+
+            h3 {
+                size: 80px;
+                Font-family: 'Lato', sans-serif;
+                Margin: 0px;
+                text-align: left;
+                color: #d49f18;
+                font-size: 20px;
+            }
+
+            p {
+                size: 80px;
+                Font-family: 'Lato', sans-serif;
+                margin: 0;
+                text-align: left;
+                color: #5a5a5a;
+                font-size: 15px;
+            }
+        }
+
+        .popular-recipes {
+            h2 {
+                color: #d820ad;
+                font-weight: 10px;
+                font-size: 30px;
+
+
+            }
+
+            a {
+                text-decoration: none;
+                color: #d820ad;
+                font-family: 'lato', sans-serif;
+                font-size: 21px;
+            }
+
+            li {
+                list-style: none;
+                margin-bottom: 30px;
+            }
+
+        }
+
+        aside {
+            padding-right: 20px;
+        }
+
+
+
+    }
+
+    footer {
+        background-color: #ccc;
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        color: #333333;
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        padding: 10px;
+    }
+}

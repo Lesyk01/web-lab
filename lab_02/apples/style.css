@@ -1,0 +1,238 @@
+header{
+    background-image:url("apples.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px 
+}
+
+nav {
+    margin: 20px;
+    float: right;
+    margin: 0px;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    a{
+        color: white;
+        padding: 5px 30px 10px 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    a:hover {
+        color: black;
+    }
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    margin: 100px;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 175px 0px 0px 0px ;
+}
+
+h3{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 0;
+    padding: 35px;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid white;
+    margin: 100px 0 0 625px;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.flex{
+    justify-content: left;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.flex .left-col {
+    font-size: 30px;
+    margin: 100px 100px 0 100px;
+
+}
+
+.flex .right-col{
+    margin: 100px 100px 0 200px;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #e8e8e8;
+    padding-bottom: 30px;
+    right: 0;
+    left: 0;
+}
+
+.info {
+    display: flex;
+    margin: 3%;
+    justify-content: space-between;
+}
+
+.text {
+    width: 500px;
+    text-align: center;
+    padding: 90px;
+}
+
+
+.info.reverce {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.image {
+    position: relative;
+    p {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+        text-shadow: 1px 1px 1pc black;
+    }
+}
+
+
+
+.heart{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-color: white;
+    padding: 5px 10px;
+    border-style: solid;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.news.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    background-color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    input {
+        padding: 20px 10px;
+        border-radius: 4px;
+        width: 900px;
+    }
+    button {
+        padding: 20px 30px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+}
+
+
+
+
+.footer.info {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+    gap: 20px;
+}
+
+.footer.info .parag {
+    margin-top: 7px;
+    max-width: 300px;
+    color: #a4a4a4;
+}
+
+.footer button {
+    padding: 6px 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    max-width: 100px;
+}
+
+.second {
+    margin: 20px;
+    float: right;
+    margin: 0px;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+
+}
+.second ul li {
+    display: inline-block;
+
+    a{
+        color: black;
+        padding: 5px 30px 10px 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    
+}

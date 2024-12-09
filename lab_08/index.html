@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="folder" onclick="toggleFolder('folder1')">
+    <img src="papka.png" id="icon-folder1" alt="folder">
+    <span>Films</span>
+</div>
+<ul class="folder_data" id="folder1">
+    <li class="file">
+        <a href="#">Iron Man</a>
+    <li class="folder" onclick="toggleFolder('subfolder-action')">
+        <img src="papka.png" id="icon-subfolder-action" alt="folder">
+        <span>Action</span>
+    </li>
+    <ul class="folder_data" id="subfolder-action">
+        <li class="file">
+            <a href="#">Fight Club</a>
+        </li>  
+        <li class="folder" onclick="toggleFolder('subfolder2')">
+            <img src="file.png" id="icon-subfolder-action" alt="folder">
+            <span>Movies 2024</span>
+        </li>
+        <ul class="folder_data" id="subfolder2">
+            <li class="empty-folder">The folder is empty</li>
+        </ul>
+    </ul>
+    <li class="folder" onclick="toggleFolder('subfolder3')">
+        <img src="papka.png" id="icon-subfolder3" alt="folder">
+        <span>Fantasy</span>
+    </li>
+    <ul class="folder_data" id="subfolder3">
+        <li class="file">
+            <a href="#">Lord of the Rings</a>
+        </li>
+    </ul>
+</ul>
+
+<div class="folder" onclick="toggleFolder('folder2')">
+    <img src="papka.png" id="icon-folder2" alt="folder">
+    <span>Projects</span>
+</div>
+<ul class="folder_data" id="folder2">
+    
+    <li class="file">
+        <a href="#">Document</a>
+    </li>
+</ul>
+
+<script src="script.js"></script>
+</body>
+</html>

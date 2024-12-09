@@ -1,0 +1,433 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+
+
+header .group1 {
+
+  .col1 {
+    width: 30%;
+    margin-top: 20%;
+    transform: translate(-40%, 0);
+    font-size: 20px;
+    line-height: 1.5;
+
+    .butt {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+
+      button {
+       
+        width: 60%;
+
+        padding: 8px;
+        background: black;
+        color: rgb(255, 255, 255);
+      }
+
+      .button1 {
+        width: 40%;
+        background: orange;
+        color: rgb(255, 255, 255);
+        border: 1px orange;
+
+      }
+    }
+
+    .but {
+      text-decoration: none;
+      justify-content: center;
+    }
+  }
+
+  display: flex;
+  flex-direction: row;
+
+  .back1 {
+    position: relative;
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    size-adjust: 100%;
+
+    h1 {
+      mix-blend-mode: exclusion;
+      color: aliceblue;
+      margin-top: 35%;
+      width: 40%;
+      font-size: 100px;
+      transform: translate(40%, -50%);
+
+
+    }
+
+    img {
+
+      width: 60%;
+    }
+  }
+
+
+
+}
+
+
+
+
+
+body .group2 {
+  margin: 60px;
+  display: flex;
+  flex-direction: row;
+
+
+  img {
+    width: 60%;
+  }
+
+  .col2 {
+    width: 40%;
+
+    h1 {
+      padding-top: 10%;
+      margin: 0 auto;
+      width: 60%;
+      font-size: 50px;
+      text-align: center
+    }
+
+    p {
+      padding-top: 5%;
+      margin: 0 auto;
+      width: 60%;
+      gap: 40px;
+      font-size: 20px;
+      text-align: center
+    }
+  }
+}
+
+body .group3 {
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+
+  img {
+
+    width: 50%;
+    border-radius: 15px;
+
+  }
+
+  
+
+  .col3 {
+    width: 50%;
+
+    img {
+      border-radius: 0px;
+      width: 100%;
+    }
+
+
+    .back {
+      height: 49%;
+      background-color: black;
+      color: white;
+      size-adjust: 100%;
+
+      h1 {
+
+        padding-top: 25%;
+        text-align: center;
+        font-size: 40px;
+
+      }
+
+      p {
+        margin: 0 auto;
+        width: 50%;
+        justify-content: center;
+        font-size: 20px;
+        align-items: center;
+
+
+      }
+
+      
+
+    }
+  }
+
+}
+
+footer {
+
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+
+  p {
+    width: 30%;
+    color: white;
+    padding-top: 10%
+  }
+
+  h1 {
+    color: white;
+    padding-top: 10%;
+    width: 20%;
+    padding-left: 10%;
+
+
+
+
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+}
+.a1{
+  color: azure;
+  text-decoration: none;
+}
+
+
+
+ 
+
+  
+
+.map-section {
+
+  position: relative;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.butto{
+  .back-button1 {
+
+
+
+      height: 40px;
+      position: absolute;
+      top: 0px;
+      left: 150px;
+      background-color:orange;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      
+      cursor: pointer;
+  }
+.back-button {
+
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hover {
+  background-color: #e57a20;
+}
+}
+.second { 
+ 
+  gap:10%;
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  color: white;
+  padding: 40px;
+  text-align: left;
+
+  
+ 
+
+.adr {
+  .par{
+      margin-top: 10px;
+  }
+  h2{
+     
+      margin-bottom: 10px;
+      color:#e57a20 ;
+      
+  }
+  display: flex;
+  flex-direction: column;
+  p{
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+}
+footer {
+  background-color: #f68b28;
+  padding: 20px;
+  
+  color: white;
+}
+
+.footer-content {
+  gap: 10%;
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width:100%;;
+}
+
+.social-icons p {
+ 
+ 
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  .hover {
+  text-decoration: underline;
+}
+}
+.a1{
+  
+  color: azure;
+  text-decoration: none;
+}
+
+.footer-content1{
+  width:60%;
+}
+
+
+
+/* Встановлюємо базовий стиль для мобільних пристроїв (до 600px ширини) */
+@media (max-width: 600px) {
+  body {
+      margin: 0;
+      font-size: 14px;
+  }
+
+  header .group1 .col1 {
+      width: 100%;
+      margin-top: 10%;
+      padding: 10px;
+      transform: none;
+  }
+
+  header .group1 .back1 h1 {
+      font-size: 40px;
+      transform: none;
+      text-align: center;
+      margin: 10px auto;
+  }
+
+  .butt {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .butt button {
+      width: 80%;
+  }
+
+  body .group2, body .group3 {
+      flex-direction: column;
+      gap: 20px;
+      margin: 10px;
+  }
+
+  body .group2 img, body .group3 img {
+      width: 100%;
+  }
+
+  footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      padding: 20px;
+  }
+
+  footer h1, footer p {
+      font-size: 16px;
+  }
+
+  .social {
+      justify-content: center;
+      gap: 15px;
+  }
+}
+
+/* Налаштування для планшетів (ширина до 992px) */
+@media (max-width: 992px) {
+  body {
+      font-size: 16px;
+  }
+
+  header .group1 .col1 {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .group2, .group3 {
+      flex-direction: column;
+      margin: 20px auto;
+      align-items: center;
+  }
+
+  .group2 img, .group3 img {
+      width: 90%;
+  }
+
+  footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+  }
+
+  .footer-content {
+      flex-direction: column;
+      width: 100%;
+      gap: 20px;
+  }
+
+  .social-icons {
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .social-icons svg {
+      width: 25px;
+      height: 25px;
+  }
+}
