@@ -8,7 +8,7 @@ const weapons = {
         }
     },
     DesertEagle: {
-        name: "Desert Eagle",
+        name: "Desert-Eagle",
         image: "assets/Desert Eagle.jpg",
         details: {
             Info: "Самозарядний пістолет великого калібру (до 12,7 мм).",
@@ -29,7 +29,7 @@ const weapons = {
         }
     },
     DualBerettas: {
-        name: "Dual Berettas",
+        name: "Dual-Berettas",
         image: "assets/Dual Berettas.jpg",
         details: {
             Info: "Серія напівавтоматичних пістолетів, розроблених Beretta.",
